@@ -1,0 +1,5 @@
+v8cgi (0.9.1-svn-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Ondřej Žára <ondrej.zara@gmail.com>  Tue, 06 Dec 2011 20:54:13 +0100
