@@ -24,6 +24,7 @@ Description: Wrapper around V8 Javascript engine
 
 Package: libapache2-mod-v8cgi
 Architecture: any
+Section: httpd
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: v8cgi apache module
  v8cgi build as Apache 2 module.
