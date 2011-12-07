@@ -22,7 +22,38 @@ Description: Wrapper around V8 Javascript engine
  Allows server-side JS scripting. Comes with several built-in 
  libraries (modules); some native, some implemented in javascript.
 
-Package: v8cgi-doc
-Architecture: all
-Description: documentation for v8cgi
- <insert long description, indented with spaces>
+Package: libapache2-mod-v8cgi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi apache module
+ v8cgi build as Apache 2 module.
+
+Package: v8cgi-mysql
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi mysql module
+ v8cgi module that offers an API to connect to MySQL servers.
+
+Package: v8cgi-pgsql
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi pgsql module
+ v8cgi module that offers an API to connect to PostgreSQL servers.
+
+Package: v8cgi-gd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi gd module
+ v8cgi module that offers image an manipulation API.
+
+Package: v8cgi-memcached
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi memcached module
+ v8cgi module that offers an API to connect to memcached.
+
+Package: v8cgi-sqlite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: v8cgi sqlite module
+ v8cgi module that offers an API to connect to SQLite databases.

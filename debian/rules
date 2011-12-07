@@ -22,9 +22,11 @@ V8=/usr/include
 
 override_dh_auto_clean:
 	scons v8_path=${V8} -c 
+	rm v8cgi.conf
 
 override_dh_auto_build:
 	scons v8_path=${V8} pgsql=1
+	cp v8cgi.conf.posix v8cgi.conf
 
 
 # not done: gl?
