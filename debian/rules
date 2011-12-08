@@ -24,6 +24,7 @@ override_dh_auto_clean:
 	scons v8_path=${V8} pgsql=1 -c 
 	rm -f v8cgi.conf
 	rm -f debian/v8cgi.1
+	rm -f config.log
 
 override_dh_auto_build:
 	scons v8_path=${V8} pgsql=1
