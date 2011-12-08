@@ -3,8 +3,8 @@ Section: misc
 Priority: optional
 Maintainer: Ondřej Žára <ondrej.zara@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
+				scons,
 				perl,
-				pod2man,
 				libv8-dev,
 				libapr1-dev, 
 				libmemcached-dev, 
@@ -13,7 +13,8 @@ Build-Depends: debhelper (>= 8.0.0),
 				libsqlite3-dev,
 				libssl-dev,
 				zlib1g-dev,
-				libdg2-xpm-dev | libgd2-noxpm-dev
+				libdg2-xpm-dev | libgd2-noxpm-dev,
+				apache2-prefork-dev | apache2-threaded-dev
 Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/v8cgi/
 
