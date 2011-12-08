@@ -2,4 +2,4 @@ v8cgi (0.9.2dev-svn-0) unstable; urgency=low
 
   * Initial packaged version, based on 0.9.2 release of v8cgi
 
- -- Ondřej Žára <ondrej.zara@gmail.com>  Tue, 06 Dec 2011 20:54:13 +0100
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Tue, 06 Dec 2011 20:54:13 +0100
