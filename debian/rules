@@ -23,11 +23,15 @@ V8=/usr/include
 override_dh_auto_clean:
 	scons v8_path=${V8} -c 
 	rm v8cgi.conf
+	rm debian/v8cgi.1
 
 override_dh_auto_build:
 	scons v8_path=${V8} pgsql=1
 	cp v8cgi.conf.posix v8cgi.conf
 
+override_dh_installman:
+	pod2man --section=1 --release=$(VERSION) --center "" v8cgi.pod > debian/v8cgi.1
+	dh_installman
 
 # not done: gl?
 # done: apache, mysql, sqlite, pgsql, tls, zlib, gd
