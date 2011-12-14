@@ -1,1 +1,2 @@
 mod_v8cgi.so /usr/lib/apache2/modules
+apache2/mods-available/* /etc/apache2/mods-available
