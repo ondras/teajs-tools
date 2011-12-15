@@ -1,0 +1,2 @@
+1. reimp -d libmysql.lib
+2. dlltool -k -d libmysql.def -l libmysql.a

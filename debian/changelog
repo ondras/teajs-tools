@@ -1,3 +1,9 @@
+v8cgi (0.9.2-svn-1ubuntu1) oneiric; urgency=low
+
+  * Official release 0.9.2 of v8cgi
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Wed, 14 Dec 2011 15:34:16 +0100
+
 v8cgi (0.9.2dev-svn-1) oneiric; urgency=low
 
   * Initial packaged version, based on 0.9.2 release of v8cgi
