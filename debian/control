@@ -1,7 +1,7 @@
 Source: v8cgi
 Section: misc
 Priority: optional
-Maintainer: Ondřej Žára <ondrej.zara@gmail.com>
+Maintainer: Ondrej Zara <ondrej.zara@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
 				scons,
 				perl,

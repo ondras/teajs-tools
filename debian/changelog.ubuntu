@@ -1,3 +1,9 @@
+v8cgi (0.9.3dev~svn1001) oneiric; urgency=low
+
+  * Websocket related fixes
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Tue, 07 Feb 2012 12:41:14 +0100
+
 v8cgi (0.9.2-svn-1ubuntu1) oneiric; urgency=low
 
   * Official release 0.9.2 of v8cgi

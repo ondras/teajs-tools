@@ -1,0 +1,9 @@
+1) exportni skript
+2) odnekud zkopirovat minuly adresar debian/ (kvuli changelogu)
+3) dch -i: zkontrolovat cislo verze a e-mailovou adresu (ondrej.zar@gmail.com kvuli klici)
+4) debuild -S
+5) pbuilder --build
+6) otestovat: sudo DIST=oneiric|sid pbuilder --login --bindmounts /var/cache/pbuilder/...
+
+7a) dput ppa:ondras/v8cgi <source.changes>
+7b) dput mentors <source.changes>

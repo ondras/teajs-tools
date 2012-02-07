@@ -3,5 +3,5 @@ Upstream-Name: v8cgi
 Source: http://code.google.com/p/v8cgi/
 
 Files: *
-Copyright: 2008-2011 Ondrej Zara <ondrej.zara@gmail.com>
+Copyright: 2008-2012 Ondrej Zara <ondrej.zara@gmail.com>
 License: New BSD License, /usr/share/common-licenses/BSD
