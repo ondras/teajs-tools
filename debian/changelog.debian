@@ -1,4 +1,16 @@
-v8cgi (0.9.3dev~svn1001) unstable; urgency=low
+v8cgi (0.9.3dev~svn1006-2) unstable; urgency=low
+
+  * Fixed debian packaging
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Fri, 23 Mar 2012 11:25:27 +0100
+
+v8cgi (0.9.3dev~svn1006-1) unstable; urgency=low
+
+  * Bugfixes, stability improvements, support for apache 2.4
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Fri, 23 Mar 2012 10:50:07 +0100
+
+v8cgi (0.9.3dev~svn1001-1) unstable; urgency=low
 
   * Websocket related fixes
 
