@@ -21,7 +21,7 @@ Homepage: http://code.google.com/p/v8cgi/
 Package: v8cgi
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Multi-purpose wrapper around V8 JavaScript engine, allowing JS to be used as a server-side scripting language
+Description: Multi-purpose server-side JavaScripting support, based on V8 engine
  Allows server-side JS scripting. Comes with several built-in 
  libraries (modules); some native, some implemented in JavaScript.
 
