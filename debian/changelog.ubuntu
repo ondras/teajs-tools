@@ -1,3 +1,17 @@
+v8cgi (0.9.3dev~svn1018) precise; urgency=low
+
+  * Socket, TLS and Websocket improvements
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Thu, 17 May 2012 10:49:16 +0200
+
+v8cgi (0.9.3dev~svn1008) precise; urgency=low
+
+  * Stability fixes and improvements
+  * Ability to connect to non-default MySQL port
+  * Packaged for Precise
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Wed, 11 Apr 2012 08:34:13 +0200
+
 v8cgi (0.9.3dev~svn1001) oneiric; urgency=low
 
   * Websocket related fixes
