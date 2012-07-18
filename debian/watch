@@ -1,2 +1,2 @@
 version=3
-http://code.google.com/p/v8cgi/downloads/list?can=1 .*/v8cgi-(\d[\d\.]+)-src\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz))|zip)
+http://code.google.com/p/teajs/downloads/list?can=1 .*/teajs-(\d[\d\.]+)-src\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz))|zip)

@@ -5,5 +5,5 @@
 5) pbuilder --build
 6) otestovat: sudo DIST=oneiric|sid pbuilder --login --bindmounts /var/cache/pbuilder/...
 
-7a) dput ppa:ondras/v8cgi <source.changes>
+7a) dput ppa:ondras/teajs <source.changes>
 7b) dput mentors <source.changes>

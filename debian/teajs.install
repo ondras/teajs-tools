@@ -1,0 +1,13 @@
+tea usr/bin/
+teajs.conf etc/
+example usr/share/teajs/
+unit usr/share/teajs/
+lib/*.js usr/lib/teajs/
+lib/binary.so usr/lib/teajs/
+lib/fibers.so usr/lib/teajs/
+lib/fs.so usr/lib/teajs/
+lib/process.so usr/lib/teajs/
+lib/profiler.so usr/lib/teajs/
+lib/socket.so usr/lib/teajs/
+lib/tls.so usr/lib/teajs/
+lib/zlib.so usr/lib/teajs/

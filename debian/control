@@ -1,4 +1,4 @@
-Source: v8cgi
+Source: teajs
 Section: misc
 Priority: optional
 Maintainer: Ondrej Zara <ondrej.zara@gmail.com>
@@ -16,48 +16,49 @@ Build-Depends: debhelper (>= 8.0.0),
 				libdg2-xpm-dev | libgd2-noxpm-dev,
 				apache2-prefork-dev | apache2-threaded-dev
 Standards-Version: 3.9.3
-Homepage: http://code.google.com/p/v8cgi/
+Homepage: http://code.google.com/p/teajs/
 
-Package: v8cgi
+Package: teajs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Multi-purpose server-side JavaScripting support, based on V8 engine
  Allows server-side JS scripting. Comes with several built-in 
  libraries (modules); some native, some implemented in JavaScript.
+ TeaJS was previously known as v8cgi.
 
-Package: libapache2-mod-v8cgi
+Package: libapache2-mod-teajs
 Architecture: any
 Section: httpd
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Apache module for handling HTTP requests with v8cgi
- v8cgi build as Apache 2 module.
+Description: Apache module for handling HTTP requests with TeaJS
+ TeaJS built as Apache 2 module.
 
-Package: v8cgi-mysql
+Package: teajs-mysql
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: v8cgi MySQL bindings module
- v8cgi module that offers an API to connect to MySQL servers.
+Description: TeaJS MySQL bindings module
+ TeaJS module that offers an API to connect to MySQL servers.
 
-Package: v8cgi-pgsql
+Package: teajs-pgsql
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: v8cgi PostgreSQL bindings module
- v8cgi module that offers an API to connect to PostgreSQL servers.
+Description: TeaJS PostgreSQL bindings module
+ TeaJS module that offers an API to connect to PostgreSQL servers.
 
-Package: v8cgi-gd
+Package: teajs-gd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: v8cgi image manipulation module, based on GD
- v8cgi module that offers an image manipulation API.
+Description: TeaJS image manipulation module, based on GD
+ TeaJS module that offers an image manipulation API.
 
-Package: v8cgi-memcached
+Package: teajs-memcached
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: v8cgi memcached bindings module
- v8cgi module that offers an API to connect to memcached.
+Description: TeaJS memcached bindings module
+ TeaJS module that offers an API to connect to memcached.
 
-Package: v8cgi-sqlite
+Package: teajs-sqlite
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: v8cgi SQLite bindings module
- v8cgi module that offers an API to connect to SQLite databases.
+Description: TeaJS SQLite bindings module
+ TeaJS module that offers an API to connect to SQLite databases.
