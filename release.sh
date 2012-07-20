@@ -10,7 +10,7 @@ echo "exporting TeaJS source"
 hg archive ${TARGET}/teajs
 cd ../v8
 echo "exporting v8 source"
-svn export . ${TARGET}/v8
+echo svn export . ${TARGET}/v8
 cd ../RELEASE
 echo "packaging"
 tar -czf ${PACKAGE}.tar.gz ${PACKAGE}
@@ -23,8 +23,12 @@ TARGET="../RELEASE/${PACKAGE}"
 mkdir -p ${TARGET}
 echo "exporting TeaJS win32 - MAKE SURE ALL BINARIES ARE STRIPPED! :-)"
 cp -r "additional dlls" ${TARGET}
-svn export example ${TARGET}/example	# examples
-svn export unit ${TARGET}/unit			# unit tests
+
+hg archive DUMMY
+cp -r DUMMY/example ${TARGET}/example	# examples
+cp -r DUMMY/unit ${TARGET}/unit			# unit tests
+rm -rf DUMMY
+
 mkdir ${TARGET}/lib
 cp lib/*.js ${TARGET}/lib				# js modules
 cp lib/*.dll ${TARGET}/lib				# native modules

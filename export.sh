@@ -1,5 +1,5 @@
 #!/bin/bash
-cd svn
+cd hg
 VERSION=$(cat VERSION)
 
 if [[ $VERSION =~ dev ]] ; then
