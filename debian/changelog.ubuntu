@@ -1,3 +1,9 @@
+teajs (0.9.5~dev~hg635d7da6dfe8) quantal; urgency=low
+
+  * EXIF, Eventloop, fixes, redis, logos
+
+ -- Ondrej Zara <ondrej.zara@gmail.com>  Fri, 19 Oct 2012 13:59:14 +0200
+
 teajs (0.9.4) precise; urgency=low
 
   * Renamed to TeaJS; EXIF & Eventloop modules
